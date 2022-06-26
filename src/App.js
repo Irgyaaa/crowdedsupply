@@ -11,19 +11,18 @@ const Navbar = lazy(() => import('./Navbar'));
 const Navbarnewstock = lazy(() => import('./Navbarnewstock'));
 const Style = lazy(() => import('./Style'));
 const Profile = lazy(() => import('./Profile'));
-const Baju = lazy(() => import('./Baju'));
-const Baju1 = lazy(() => import('./Baju1'));
-const Baju2 = lazy(() => import('./Baju2'));
-const Baju3 = lazy(() => import('./Baju3'));
-const Baju4 = lazy(() => import('./Baju4'));
-const Baju5 = lazy(() => import('./Baju5'));
-const Baju6 = lazy(() => import('./Baju6'));
-const Baju7 = lazy(() => import('./Baju7'));
-const Baju8 = lazy(() => import('./Baju8'));
-const Baju9 = lazy(() => import('./Baju9'));
-const Baju10 = lazy(() => import('./Baju10'));
-const Baju11= lazy(() => import('./Baju11'));
-const Baju12= lazy(() => import('./Baju12'));
+const ONS = lazy(() => import('./OpenNewstock/ONS'));
+const ONS1 = lazy(() => import('./OpenNewstock/ONS1'));
+const ONS2 = lazy(() => import('./OpenNewstock/ONS2'));
+const ONS3 = lazy(() => import('./OpenNewstock/ONS3'));
+const ONS4 = lazy(() => import('./OpenNewstock/ONS4'));
+const ONS5 = lazy(() => import('./OpenNewstock/ONS5'));
+const ONS6 = lazy(() => import('./OpenNewstock/ONS6'));
+const ONS7 = lazy(() => import('./OpenNewstock/ONS7'));
+const ONS8 = lazy(() => import('./OpenNewstock/ONS8'));
+const ONS9 = lazy(() => import('./OpenNewstock/ONS9'));
+const ONS10 = lazy(() => import('./OpenNewstock/ONS10'));
+const ONS11= lazy(() => import('./OpenNewstock/ONS11'));
 const Categories= lazy(() => import('./Categories'));
 const Footercategories= lazy(() => import('./Footercategories'));
 const Readystock= lazy(() => import('./Readystock'));
@@ -52,8 +51,7 @@ const Hats= lazy(() => import('./Accessories/Hats'));
 const Sunglasses= lazy(() => import('./Accessories/Sunglasses'));
 const Wallets= lazy(() => import('./Accessories/Wallets'));
 const Watches= lazy(() => import('./Accessories/Watches'));
-//Routingan API//
-const Api= lazy(() => import('./API/Api'));
+
 
 
 function App() {
@@ -67,19 +65,18 @@ function App() {
           <Route path="/Newstock" element={<Newstock />} />
           <Route path="/Style" element={<Style />} />
           <Route path="/Profile" element={<Profile />} />
-          <Route path="/Baju" element={<Baju />} />        
-          <Route path="/Baju1" element={<Baju1 />} />        
-          <Route path="/Baju2" element={<Baju2/>} />        
-          <Route path="/Baju3" element={<Baju3 />} />        
-          <Route path="/Baju4" element={<Baju4 />} />        
-          <Route path="/Baju5" element={<Baju5 />} />        
-          <Route path="/Baju6" element={<Baju6 />} />        
-          <Route path="/Baju7" element={<Baju7 />} />        
-          <Route path="/Baju8" element={<Baju8 />} />        
-          <Route path="/Baju9" element={<Baju9 />} />        
-          <Route path="/Baju10" element={<Baju10 />} />        
-          <Route path="/Baju11" element={<Baju11/>} />        
-          <Route path="/Baju12" element={<Baju12/>} />             
+          <Route path="/ONS" element={<ONS />} />        
+          <Route path="/ONS1" element={<ONS1 />} />        
+          <Route path="/ONS2" element={<ONS2/>} />        
+          <Route path="/ONS3" element={<ONS3 />} />        
+          <Route path="/ONS4" element={<ONS4 />} />        
+          <Route path="/ONS5" element={<ONS5 />} />        
+          <Route path="/ONS6" element={<ONS6 />} />        
+          <Route path="/ONS7" element={<ONS7 />} />        
+          <Route path="/ONS8" element={<ONS8 />} />        
+          <Route path="/ONS9" element={<ONS9 />} />        
+          <Route path="/ONS10" element={<ONS10 />} />        
+          <Route path="/ONS11" element={<ONS11/>} />        
           <Route path="/Categories" element={<Categories/>} />   
           <Route path="/Footercategories" element={<Footercategories/>} />  
           <Route path="/Readystock" element={<Readystock/>} />   
@@ -109,8 +106,7 @@ function App() {
           <Route path="/Sunglasses" element={<Sunglasses/>} />          
           <Route path="/Wallet" element={<Wallets/>} />          
           <Route path="/Watches" element={<Watches/>} />   
-          /* Routingan API */
-          <Route path="/Api" element={<Api/>} />   
+ 
                  
         </Routes>
       </Suspense>

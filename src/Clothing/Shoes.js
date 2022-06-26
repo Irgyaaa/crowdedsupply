@@ -1,5 +1,6 @@
 import Navbarcategories from '../Navbarcategories'
 import Footercategories from '../Footercategories'
+
 const products = [
     {
       id: 1,

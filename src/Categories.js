@@ -240,8 +240,8 @@ export default function Example() {
                 <a href="/">
                   <span className="sr-only">Workflow</span>
                   <img
-                    className="h-8 w-auto"
-                    src="https://drive.google.com/uc?export=view&id=1JzvICugrHweuEpAYm4Xf9Tpj9WyEefKd"
+                    className="h-12 w-12"
+                    src="https://drive.google.com/uc?export=view&id=1HXiAjUVvrfxQaW8S5aVm0x3pkz1I1aLm"
                     alt="/"
                   />
                 </a>
@@ -361,11 +361,11 @@ export default function Example() {
                 <div className="hidden lg:ml-8 lg:flex">
                   <a href="#" className="text-white hover:text-yellow-500 flex items-center">
                     <img
-                      src="https://tailwindui.com/img/flags/flag-canada.svg"
+                      src="https://drive.google.com/uc?export=view&id=1TSCHDEXaiCbSApvgCbIKvF7xj5hQ9TMO"//
                       alt=""
                       className="w-5 h-auto block flex-shrink-0"
                     />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
+                    <span className="ml-3 block text-sm font-medium">ID</span>
                     <span className="sr-only">, change currency</span>
                   </a>
                 </div>

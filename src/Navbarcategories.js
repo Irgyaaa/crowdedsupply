@@ -40,13 +40,13 @@ export default function Example() {
         <Disclosure as="nav" className="bg-blue-800">
           {({ open }) => (
             <>
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="max-w-7xl mx-auto px-auto sm:px-14 lg:px-10">
                 <div className="flex items-center justify-between h-20">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
                       <img
-                        className="h-8 w-8"
-                        src="https://drive.google.com/uc?export=view&id=1JzvICugrHweuEpAYm4Xf9Tpj9WyEefKd"
+                        className="h-12 w-12"
+                        src="https://drive.google.com/uc?export=view&id=1HXiAjUVvrfxQaW8S5aVm0x3pkz1I1aLm"
                         href="/"
                       />
                     </div>
@@ -186,7 +186,7 @@ export default function Example() {
 
         <header className="bg-blue-600 shadow">
           <div className="max-w-7xl mx-auto py-3 px-4 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold text-yellow-500">Crowded.Supply</h1>
+            <h1 className="text-3xl font-bold text-center text-yellow-500">Crowded.Supply</h1>
           </div>
         </header>
       </div>

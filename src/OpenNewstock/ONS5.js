@@ -1,6 +1,6 @@
 import React from "react";
-import Navbarnewstock from './Navbarnewstock'
-import Footer from './Footer'
+import Navbarnewstock from '../Navbarnewstock'
+import Footer from '../Footer'
 
 export default function Index() {
     return (
@@ -13,31 +13,24 @@ export default function Index() {
                     
                 </p>
             </div>
-            <div className=" grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10">
+            <div className=" grid lg:grid-cols-2 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10">
                 <div className="relative group">
-                    <img src="https://i.ibb.co/QHS8Ngp/pexels-alana-sousa-3294250-1.png" alt="A picture of a sitting dog" className=" lg:block hidden w-full " />
-                    <img src="https://i.ibb.co/mNPBgQN/pexels-alana-sousa-3294250-1-1.png" alt="A picture of a sitting dog" className="lg:hidden block w-full " />
+                    <img src="https://drive.google.com/uc?export=view&id=1t8VRpiMqSpMo0UDsVz7YsXyUI96BCDUT" alt="A picture of a sitting dog" className=" lg:block hidden w-full " />
+                    <img src="https://drive.google.com/uc?export=view&id=1t8VRpiMqSpMo0UDsVz7YsXyUI96BCDUT" alt="A picture of a sitting dog" className="lg:hidden block w-full " />
                     <div className=" flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
                     <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
                     </div>
                 </div>
                 <div className="relative group">
-                    <img src="https://i.ibb.co/T8jgRy3/pexels-leah-kelley-1449667-1.png" alt="Smiling Girl" className=" lg:block hidden w-full " />
-                    <img src="https://i.ibb.co/YD8nNMR/pexels-leah-kelley-1449667-1-1.png" alt="Smiling Girl" className="lg:hidden block w-full " />
+                    <img src="https://drive.google.com/uc?export=view&id=1Wk8yuZzJKLS3Nx8eRPylDu1PBaPkpFI1" alt="Smiling Girl" className=" lg:block hidden w-full " />
+                    <img src="https://drive.google.com/uc?export=view&id=1Wk8yuZzJKLS3Nx8eRPylDu1PBaPkpFI1" alt="Smiling Girl" className="lg:hidden block w-full " />
                     <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
                     <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
                     </div>
                 </div>
                 <div className="relative group">
-                    <img src="https://i.ibb.co/F3dzNWD/pexels-spencer-selover-775358-1.png" alt="Men Posing" className=" lg:block hidden w-full " />
-                    <img src="https://i.ibb.co/myWxfSm/pexels-spencer-selover-775358-1-1.png" alt="Men Posing" className="lg:hidden block w-full " />
-                    <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
-                    <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
-                    </div>
-                </div>
-                <div className="relative group">
-                    <img src="https://i.ibb.co/DwcwgDP/pexels-chevanon-photography-1108099-1.png" alt="2 puppies" className=" lg:block hidden w-full " />
-                    <img src="https://i.ibb.co/5cDQZ2r/pexels-chevanon-photography-1108099-1-1.png" alt="2 puppies" className="lg:hidden block w-full " />
+                    <img src="https://drive.google.com/uc?export=view&id=1v4_QnRZSWfClhBHxPUZACNs1Oa9_LkcE" alt="Men Posing" className=" lg:block hidden w-full " />
+                    <img src="https://drive.google.com/uc?export=view&id=1v4_QnRZSWfClhBHxPUZACNs1Oa9_LkcE" alt="Men Posing" className="lg:hidden block w-full " />
                     <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
                     <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
                     </div>
